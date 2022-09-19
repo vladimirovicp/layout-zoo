@@ -3,7 +3,7 @@
   height: 70rem;
   background-image: url("../img/hero.jpg");
   background-size: cover;
-  background-position: center -8rem;
+  background-position: center bottom;
 
   .container{
     display: flex;
@@ -46,5 +46,22 @@
     }
 
   }
+
+}
+
+
+@media (max-width: 62.5em) {
+  .hero{
+    height: 50.4rem;
+
+    &__title{
+      width: 40rem;
+      &:before{
+        width: 36.5rem;
+        height: 36.5rem;
+      }
+    }
+  }
+
 
 }

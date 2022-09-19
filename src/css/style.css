@@ -191,15 +191,12 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield; }
 
-@media (max-width: 48em) {
+@media (max-width: 62.5em) {
   html {
-    font-size: 1.5625vw;
-    -webkit-text-size-adjust: none; }
-  body {
-    -webkit-text-size-adjust: none; }
+    font-size: 1vw; }
   .container {
-    padding: 0 4rem;
-    width: 100%; } }
+    width: 100%;
+    padding: 0 3rem; } }
 
 .button {
   width: 29.8rem;
@@ -278,7 +275,7 @@ input[type="number"] {
   height: 70rem;
   background-image: url("../img/hero.jpg");
   background-size: cover;
-  background-position: center -8rem; }
+  background-position: center bottom; }
   .hero .container {
     display: flex;
     justify-content: flex-end; }
@@ -310,3 +307,12 @@ input[type="number"] {
       background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
       border-radius: 50%;
       z-index: -1; }
+
+@media (max-width: 62.5em) {
+  .hero {
+    height: 50.4rem; }
+    .hero__title {
+      width: 40rem; }
+      .hero__title:before {
+        width: 36.5rem;
+        height: 36.5rem; } }
