@@ -3,7 +3,23 @@
     display: flex;
   }
 
+  &__item{
+    &:not(:last-child) {
+      margin-right: 5.8rem;
+    }
+  }
+
   &__link{
     color: #fff;
+    font-size: 1.6rem;
+    line-height: 140%;
+    font-weight: 500;
+    &._active{
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+
   }
 }
