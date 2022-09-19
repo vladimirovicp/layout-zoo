@@ -1,0 +1,50 @@
+.hero{
+  position: relative;
+  height: 70rem;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center -8rem;
+
+  .container{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .wrapper{
+    padding-top: 8.6rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title{
+    position: relative;
+    font-weight: 700;
+    font-size: 10.6496rem;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 0;
+    margin-bottom: 6rem;
+
+    span{
+      color: #FFEE2E;
+    }
+
+    &::before{
+      content: '';
+      position: absolute;
+      top: -7.4rem;
+      left: -7.3rem;
+      width: 46.5rem;
+      height: 46.5rem;
+      background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+      border-radius: 50%;
+      z-index: -1;
+    }
+
+  }
+
+}
