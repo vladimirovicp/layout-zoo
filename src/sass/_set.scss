@@ -135,7 +135,9 @@ input[type="number"] {
 
 
 @media (max-width: 40em) { //640
-
+    html {
+        font-size: 0.78125vw;
+    }
 }
 
 
