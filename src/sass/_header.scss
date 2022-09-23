@@ -13,26 +13,26 @@
     @include centered;
     width: 8.2rem;
     height: 5.21rem;
-    color: #fff;
-
-    font-size: 1.90145rem;
-    line-height: 120%;
-    border: .118841rem solid #FFFFFF;
-    text-align: center;
+    //color: #fff;
+    //
+    //font-size: 1.90145rem;
+    //line-height: 120%;
+    //border: .118841rem solid #FFFFFF;
+    //text-align: center;
     margin-right: 6.3rem;
-    &:before{
-      content: '';
-      display: block;
-      width: 1.2rem;
-      height: 2rem;
-      position: absolute;
-      background-image: url("../img/bambook.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      left: .95rem;
-      bottom: .7rem;
-
-    }
+    //&:before{
+    //  content: '';
+    //  display: block;
+    //  width: 1.2rem;
+    //  height: 2rem;
+    //  position: absolute;
+    //  background-image: url("../img/bambook.svg");
+    //  background-repeat: no-repeat;
+    //  background-size: contain;
+    //  left: .95rem;
+    //  bottom: .7rem;
+    //
+    //}
   }
 
   //&__info{

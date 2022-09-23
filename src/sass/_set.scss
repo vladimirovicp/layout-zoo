@@ -10,7 +10,8 @@
 
 html {
     font-family: 'Roboto';
-    font-size: 0.625vw; // на разрешении 1600 0.625vw === 10px
+    //font-size: 0.625vw; // на разрешении 1600 0.625vw === 10px
+    font-size: 10px;
     font-style: normal;
     font-weight: normal;
     -webkit-animation: bugfix infinite 1s;
@@ -28,6 +29,8 @@ body {
     padding: 0;
     color: #282828; // цвет по умолчанию текста по сайту
     background-color: #F8F8F8; //
+
+    min-width: 160rem;
 }
 
 input,
@@ -107,7 +110,7 @@ ul li {
 }
 
 .container {
-    width: 117rem;
+    width: 116rem;
     margin: 0 auto;
 }
 
@@ -121,24 +124,24 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
-@media (max-width: 62.5em) {  //1000
-    html {
-        font-size: 1vw;
-    }
-    .container {
-        width: 100%;
-        padding: 0 3rem;
-    }
+//@media (max-width: 62.5em) {  //1000
+//    html {
+//        font-size: 1vw;
+//    }
+//    .container {
+//        width: 100%;
+//        padding: 0 3rem;
+//    }
+//
+//}
 
-}
 
 
-
-@media (max-width: 40em) { //640
-    html {
-        font-size: 0.78125vw;
-    }
-}
+//@media (max-width: 40em) { //640
+//    html {
+//        font-size: 0.78125vw;
+//    }
+//}
 
 
 //@media (max-width: 48em) {
