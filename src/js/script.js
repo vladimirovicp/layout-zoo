@@ -37,3 +37,27 @@ const swiperZoo = new Swiper('.zoo__slider', {
     },
 
 });
+
+// Слайдер отзывы
+const swiperTestimonials = new Swiper('.testimonials__slider', {
+    // direction: 'vertical',
+    loop: false,
+    spaceBetween: 30,
+
+
+    breakpoints: {
+        320: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 4
+        }
+    },
+
+
+    scrollbar: {
+        el: '.testimonials__swiper-scrollbar',
+        draggable: true,
+    },
+
+});
