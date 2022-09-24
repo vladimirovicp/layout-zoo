@@ -1,0 +1,59 @@
+.zoo{
+  position: relative;
+  padding-bottom: 8rem;
+
+  .container{
+    position: relative;
+  }
+  &__slider{
+    .swiper-wrapper {
+      height: 87.2rem;
+      justify-content: space-between;
+    }
+
+    .swiper-slide{
+      position: relative;
+      width: 36.6rem!important;
+      height: 42.6rem!important;
+      border-radius: .5rem;
+      border: .2rem solid #FA6F32;
+    }
+  }
+
+
+  &__list{
+    display: flex;
+    padding: .8rem .8rem 1.4rem 1.6rem;
+  }
+
+  &__text{
+
+    &-title{
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 140%;
+      text-transform: uppercase;
+    }
+    &-description{
+      font-weight: 300;
+      font-size: 1.5rem;
+      line-height: 120%;
+    }
+  }
+
+  &__affiliation{
+    margin-left: auto;
+    &-herbivorous{
+      width: 3.3rem;
+      height: 3.7rem;
+    }
+    &-predators{
+      width: 4.8rem;
+      height: 3.8rem;
+    }
+  }
+
+  &__arrow-prev{
+
+  }
+}

@@ -124,6 +124,10 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
+.centered{
+    @include centered;
+}
+
 //@media (max-width: 62.5em) {  //1000
 //    html {
 //        font-size: 1vw;

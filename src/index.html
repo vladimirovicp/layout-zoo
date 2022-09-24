@@ -10,66 +10,264 @@
 	<script src="" defer></script>
 	<title>Online zoo</title>
 
+
+	<link href="css/swiper-bundle.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
 
+	<script src="js/swiper-bundle.min.js" defer></script>
 	<script src="js/script.js" defer></script>
 
 </head>
 
 <body>
 
-	<header class="header">
+<header class="header">
+	<div class="container">
+		<a href="/" class="header__logo">
+			<img src="./img/logo.png">
+		</a>
+		<nav class="menu">
+			<div class="menu__icon open">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu__wrapper">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="" class="menu__link _active">About</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Map</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Zoos</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Donate</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Contact us</a></li>
+				</ul>
+				<div class="menu__info">
+					Designed by ©
+				</div>
+			</div>
+		</nav>
+
+	</div>
+</header>
+
+<main class="main">
+	<section class="hero">
 		<div class="container">
-			<a href="/" class="header__logo">
-				<img src="./img/logo.png">
-			</a>
-			<nav class="menu">
-				<div class="menu__icon open">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class="menu__wrapper">
-					<ul class="menu__list">
-						<li class="menu__item"><a href="" class="menu__link _active">About</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Map</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Zoos</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Donate</a></li>
-						<li class="menu__item"><a href="" class="menu__link">Contact us</a></li>
-					</ul>
-					<div class="menu__info">
-						Designed by ©
-					</div>
-				</div>
-			</nav>
+			<div class="wrapper">
+				<div class="hero__title">Watch your <span>favorite</span> animal online</div>
+				<button class="button">wath online</button>
+			</div>
 
 		</div>
-	</header>
-
-	<main class="main">
-		<section class="hero">
-			<div class="container">
-				<div class="wrapper">
-					<div class="hero__title">Watch your <span>favorite</span> animal online</div>
-					<button class="button">wath online</button>
+	</section>
+	<section class="info">
+		<div class="info__bg">
+			<img src="./img/info/info-bg.png" alt="photo">
+		</div>
+		<div class="container">
+			<div class="info__list">
+				<div class="info__item info__img">
+					<img src="./img/info/photo-info.jpg" alt="photo">
 				</div>
-
+				<div class="info__item info__text">
+					<div class="info__text-title">The Backstage of the Wilderness World.</div>
+					<div class="info__text-normal">The site was founded on the basis of a volunteer movement to protect and care for animals.</div>
+					<div class="info__text-title2">How it works </div>
+					<div class="info__text-normal">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</div>
+				</div>
 			</div>
-		</section>
-		<section class="info">
-			<div class="info__img"></div>
-			<div class="info__text">
-				<div class="info__title">The Backstage of the Wilderness World.</div>
-				<div class="info__text">The site was founded on the basis of a volunteer movement to protect and care for animals.</div>
-				<div class="info__title-2">How it works </div>
-				<div class="info__text">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</div>
+		</div>
+	</section>
+	<section class="zoo">
+		<div class="container">
+			<div class="zoo__slider swiper">
+				<div class="swiper-wrapper">
+					<div class="zoo__slide swiper-slide">
+						<div class="zoo__img">
+							<picture>
+								<img src="./img/zoo/1.jpg" alt="1">
+							</picture>
+						</div>
+						<div class="zoo__list">
+							<div class="zoo__text">
+								<div class="zoo__text-title">giant Pandas</div>
+								<div class="zoo__text-description">Native to Southwest China</div>
+							</div>
+							<div class="zoo__affiliation zoo__affiliation-herbivorous">
+								<img src="./img/zoo/ico-herbivorous.svg" alt="herbivorous">
+							</div>
+						</div>
+
+					</div>
+					<div class="zoo__slide swiper-slide">
+						<div class="zoo__img">
+							<picture>
+								<img src="./img/zoo/4.jpg" alt="4">
+							</picture>
+						</div>
+						<div class="zoo__list">
+							<div class="zoo__text">
+								<div class="zoo__text-title">Two-toed Sloth</div>
+								<div class="zoo__text-description">Mesoamerica, South America</div>
+							</div>
+							<div class="zoo__affiliation zoo__affiliation-herbivorous">
+								<img src="./img/zoo/ico-herbivorous.svg" alt="herbivorous">
+							</div>
+						</div>
+
+					</div>
+					<div class="zoo__slide swiper-slide">
+						<div class="zoo__img">
+							<picture>
+								<img src="./img/zoo/2.jpg" alt="2">
+							</picture>
+						</div>
+						<div class="zoo__list">
+							<div class="zoo__text">
+								<div class="zoo__text-title">Eagles</div>
+								<div class="zoo__text-description">Native to South America</div>
+							</div>
+							<div class="zoo__affiliation zoo__affiliation-predators">
+								<img src="./img/zoo/ico-predators.svg" alt="predators">
+							</div>
+						</div>
+
+					</div>
+					<div class="zoo__slide swiper-slide">
+						<div class="zoo__img">
+							<picture>
+								<img src="./img/zoo/5.jpg" alt="5">
+							</picture>
+						</div>
+						<div class="zoo__list">
+							<div class="zoo__text">
+								<div class="zoo__text-title">cheetahs</div>
+								<div class="zoo__text-description">Native to Africa</div>
+							</div>
+							<div class="zoo__affiliation zoo__affiliation-predators">
+								<img src="./img/zoo/ico-predators.svg" alt="predators">
+							</div>
+						</div>
+
+					</div>
+					<div class="zoo__slide swiper-slide">
+						<div class="zoo__img">
+							<picture>
+								<img src="./img/zoo/3.jpg" alt="Gorillas">
+							</picture>
+						</div>
+						<div class="zoo__list">
+							<div class="zoo__text">
+								<div class="zoo__text-title">Gorillas</div>
+								<div class="zoo__text-description">Native to Congo</div>
+							</div>
+							<div class="zoo__affiliation zoo__affiliation-herbivorous">
+								<img src="./img/zoo/ico-herbivorous.svg" alt="herbivorous">
+							</div>
+						</div>
+
+					</div>
+					<div class="zoo__slide swiper-slide">
+						<div class="zoo__img">
+							<picture>
+								<img src="./img/zoo/6.jpg" alt="Penguins">
+							</picture>
+						</div>
+						<div class="zoo__list">
+							<div class="zoo__text">
+								<div class="zoo__text-title">Penguins</div>
+								<div class="zoo__text-description">Native to Antarctica</div>
+							</div>
+							<div class="zoo__affiliation zoo__affiliation-predators">
+								<img src="./img/zoo/ico-predators.svg" alt="predators">
+							</div>
+						</div>
+
+					</div>
+				</div>
 			</div>
-		</section>
-	</main>
+						<button type="button" class="zoo__arrow-prev slider__arrow slider__arrow-prev">
+<!--			                    <span>-->
+<!--			                        <span>-->
+<!--			                            <svg>-->
+<!--			                                <use xlink:href="./img/slider/slider-arrow-left.svg"></use>-->
+<!--			                            </svg>-->
+											<img src="./img/slider/slider-arrow-left.svg" alt="arrow left">
+<!--			                        </span>-->
+<!--			                    </span>-->
+						</button>
 
-	<footer class="footer">
+						<button type="button" class="zoo__arrow-next slider__arrow slider__arrow-next">
+<!--			                    <span>-->
+<!--			                        <span>-->
+<!--			                            <svg>-->
+<!--			                                <use xlink:href="./img/icons/sprite-ico.svg#arrow-right&#45;&#45;slider"></use>-->
+<!--			                            </svg>-->
+							<img src="./img/slider/slider-arrow-right.svg" alt="arrow right">
+<!--			                        </span>-->
+<!--			                    </span>-->
+						</button>
 
-	</footer>
+
+		</div>
+	</section>
+
+	<section class="favorite">
+		<div class="container">
+			<button class="button">choose your favorite</button>
+		</div>
+	</section>
+
+	<section class="pick_feed">
+		<div class="container">
+			<h2 class="pick_feed__title">Pick and feed a friend</h2>
+			<p class="pick_feed__text-big">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+			<p class="pick_feed__text-500">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</p>
+			<p class="pick_feed__text-normal">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our <a href="#">Emergency Support Fund</a> . </p>
+
+			<div class="pick_feed__wrapper">
+				<h3 class="pick_feed__title-wrap">
+					How it works
+				</h3>
+				<div class="pick_feed__list">
+					<div class="pick_feed__item">
+						<div class="pick_feed__item-img">
+							<svg class="pick_feed__icon-pay">
+								<use xlink:href="./img/pick-feed/sprite-pick-feed.svg#pay"></use>
+							</svg>
+						</div>
+						<div class="pick_feed__item-text">Pay with card</div>
+					</div>
+					<div class="pick_feed__item">
+						<div class="pick_feed__item-img">
+							<svg class="pick_feed__icon-zoo">
+								<use xlink:href="./img/pick-feed/sprite-pick-feed.svg#zoo"></use>
+							</svg>
+						</div>
+						<div class="pick_feed__item-text">Payment goes to the zoo</div>
+					</div>
+					<div class="pick_feed__item">
+						<div class="pick_feed__item-img">
+							<svg class="pick_feed__icon-monkey">
+								<use xlink:href="./img/pick-feed/sprite-pick-feed.svg#monkey"></use>
+							</svg>
+						</div>
+						<div class="pick_feed__item-text">Your favourite animal gets delicious dish</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="centered">
+				<button class="button">Feed a friend now</button>
+			</div>
+
+		</div>
+	</section>
+
+</main>
+
+<footer class="footer">
+
+</footer>
 
 </body>
 
