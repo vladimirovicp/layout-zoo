@@ -9,6 +9,7 @@
   line-height: 140%;
   text-align: center;
   text-transform: uppercase;
+  @include centered;
 
   &__border{
     &-5{
@@ -37,6 +38,8 @@
 
     &:hover{
       background: #F1F3F2;
+      color: rgba(75, 146, 0, 1);
+      border: .1rem solid #4B9200;
     }
 
     &:active{

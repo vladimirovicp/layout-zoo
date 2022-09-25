@@ -4,15 +4,21 @@
     @include centered;
     width: 6.2rem;
     height: 6.2rem;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    background: #F9804B;
     border-radius: 50%;
     transform: translate(0, -50%);
     top: 50%;
+    transition: background-color .5s;
+
+    &:hover{
+      background: #4B9200;
+    }
 
 
     &-prev {
       left: -8.2rem;
     }
+
 
     &-next {
       right: -8.2rem;
