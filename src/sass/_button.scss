@@ -10,6 +10,12 @@
   text-align: center;
   text-transform: uppercase;
 
+  &__border{
+    &-5{
+      border-radius: .5rem;
+    }
+  }
+
   &:hover{
     background: #E47209;
   }
@@ -18,5 +24,24 @@
   }
   &.disable{
     background: #929699;
+  }
+
+  &__white{
+    text-transform: capitalize;
+    background: #F1F3F2;
+    border: .1rem solid #000;
+    border-radius: .5rem;
+    width: 12.9rem;
+    height: 4.2rem;
+    color: #000;
+
+    &:hover{
+      background: #F1F3F2;
+    }
+
+    &:active{
+      color: rgba(75, 146, 0, 1);
+      border: .1rem solid #4B9200;
+    }
   }
 }

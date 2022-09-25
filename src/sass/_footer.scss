@@ -1,0 +1,134 @@
+.footer{
+  position: relative;
+  background: #111115;
+  padding-top: 4.1rem;
+  padding-bottom: 5rem;
+
+  &:before{
+    position: absolute;
+    content: '';
+    display: block;
+    background-image: url("../img/footer/leav_foto.png");
+    width: 24.7rem;
+    height: 40.8rem;
+    top: -30.4rem;
+    right: 0;
+    z-index: 10;
+  }
+ &__item{
+    display: flex;
+   justify-content: space-between;
+
+
+   &-first{
+     align-items: center;
+   }
+
+   &-last{
+     align-items: flex-end;
+   }
+
+
+   &:not(:last-child){
+     margin-bottom: 4.6rem;
+   }
+
+ }
+
+  &__logo{
+    width: 8.2rem;
+    height: 5.2rem;
+  }
+
+  &__form{
+    display: flex;
+    flex-direction: column;
+    &-title{
+      font-size: 2.4rem;
+      line-height: 120%;
+      color: #FFFFFF;
+      padding-bottom: 1.4rem;
+    }
+    &-mail{
+      width: 22.8rem;
+      height: 4.2rem;
+      background-color: #111115;
+      padding-left: 1rem;
+
+      border-image-source: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+      border-width: .1rem;
+      border-image-slice: 1;
+
+      font-size: 1.6rem;
+      line-height: 140%;
+      color: #BDBDBD;
+      margin-right: 1rem;
+
+    }
+  }
+
+  &__soc{
+    &-list{
+
+    }
+    &-item{
+      &:not(:last-child){
+        a{
+          padding-bottom: 1rem;
+        }
+      }
+
+      a{
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &-ico{
+      width: 2.6rem;
+      height: 2.6rem;
+      @include centered;
+      background: rgba(196, 196, 196, 0.5);
+      border-radius: 50%;
+    }
+
+    &-facebook{
+      width: .8rem;
+      height: 1.6rem;
+    }
+
+    &-twitter{
+      width: 1.6rem;
+      height: 1.4rem;
+    }
+
+    &-instagram{
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    &-youtube{
+      width: 1.8rem;
+      height: 1.299rem;
+    }
+
+    &-name{
+      margin-left: 1.2rem;
+      font-size: 1.6rem;
+      line-height: 140%;
+      color: #FFFFFF;
+    }
+  }
+
+  &__copy{
+    font-weight: 100;
+    font-size: 1.6rem;
+    line-height: 130%;
+    color: #FFFFFF;
+    div{
+      &:not(:last-child){
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
