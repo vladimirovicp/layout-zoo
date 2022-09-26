@@ -1,6 +1,20 @@
 .testimonials{
   padding-top: 14rem;
   padding-bottom: 18rem;
+  position: relative;
+
+  &:before{
+    position: absolute;
+    content: '';
+    display: block;
+    background-image: url("../img/footer/leav_foto.png");
+    width: 24.7rem;
+    height: 40.8rem;
+    bottom: -10.4rem;
+    right: 0;
+    z-index: 10;
+  }
+
   &__title{
     font-size: 3.6rem;
     line-height: 130%;
