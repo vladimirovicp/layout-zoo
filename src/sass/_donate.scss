@@ -57,11 +57,20 @@
     }
 
     &-day{
-
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-right: 8.9rem;
+
+      &:before{
+        content: '';
+        background-image: url("../img/donate/x.svg");
+        position: absolute;
+        width: 1.4rem;
+        height: 1.4rem;
+        right: -2.4rem;
+      }
     }
 
     &-number{
@@ -71,11 +80,80 @@
       text-align: center;
       text-transform: uppercase;
       color: #000000;
+      margin-bottom: 1.1rem;
     }
 
     &-img{
       width: 28.4rem;
       height: 24.6rem;
+    }
+  }
+
+  &__amount{
+    &-title{
+      font-size: 1.6rem;
+      line-height: 140%;
+      color: #000000;
+      margin-bottom: 1rem;
+    }
+    &-progress_bar{
+      margin-bottom: 5rem;
+    }
+
+    &-form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .wrap{
+        display: flex;
+        align-items: center;
+
+        .form_radio{
+          font-size: 1.6rem;
+          line-height: 140%;
+          &:first-child{
+            margin-right: 5rem;
+          }
+        }
+
+        .form_radio input[type=radio]{
+          display: none;
+        }
+
+        .form_radio label {
+          display: inline-block;
+          cursor: pointer;
+          position: relative;
+          padding-left: 25px;
+          margin-right: 0;
+          line-height: 18px;
+          user-select: none;
+        }
+        .form_radio label:before {
+          content: "";
+          display: inline-block;
+          width: 1.6rem;
+          height: 1.6rem;
+          position: absolute;
+          left: 0;
+          bottom: 1px;
+          background: url(../img/donate/radio.svg) 0 0 no-repeat;
+        }
+      }
+    }
+
+    &-input{
+      position: relative;
+    }
+
+    &-link{
+      font-size: 1.6rem;
+      line-height: 140%;
+    }
+
+    .centered{
+      margin-top: 3rem;
     }
   }
 }

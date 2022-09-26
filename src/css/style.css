@@ -236,6 +236,17 @@ input[type="number"] {
       color: #4b9200;
       border: .1rem solid #4B9200; }
 
+.input__text {
+  width: 26.8rem;
+  height: 5.4rem;
+  padding-left: .8rem;
+  padding-right: 3rem;
+  border: .1rem solid #929699;
+  background: transparent;
+  font-size: 1.6rem;
+  line-height: 140%;
+  margin-bottom: 2.5rem; }
+
 .slider__arrow {
   position: absolute;
   display: flex;
@@ -692,20 +703,74 @@ input[type="number"] {
       display: flex;
       justify-content: center; }
     .donat__info-day {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-right: 8.9rem; }
+      .donat__info-day:before {
+        content: '';
+        background-image: url("../img/donate/x.svg");
+        position: absolute;
+        width: 1.4rem;
+        height: 1.4rem;
+        right: -2.4rem; }
     .donat__info-number {
       font-weight: 500;
       font-size: 7.2rem;
       line-height: 80%;
       text-align: center;
       text-transform: uppercase;
-      color: #000000; }
+      color: #000000;
+      margin-bottom: 1.1rem; }
     .donat__info-img {
       width: 28.4rem;
       height: 24.6rem; }
+  .donat__amount-title {
+    font-size: 1.6rem;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 1rem; }
+  .donat__amount-progress_bar {
+    margin-bottom: 5rem; }
+  .donat__amount-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .donat__amount-form .wrap {
+      display: flex;
+      align-items: center; }
+      .donat__amount-form .wrap .form_radio {
+        font-size: 1.6rem;
+        line-height: 140%; }
+        .donat__amount-form .wrap .form_radio:first-child {
+          margin-right: 5rem; }
+      .donat__amount-form .wrap .form_radio input[type=radio] {
+        display: none; }
+      .donat__amount-form .wrap .form_radio label {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        padding-left: 25px;
+        margin-right: 0;
+        line-height: 18px;
+        user-select: none; }
+      .donat__amount-form .wrap .form_radio label:before {
+        content: "";
+        display: inline-block;
+        width: 1.6rem;
+        height: 1.6rem;
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        background: url(../img/donate/radio.svg) 0 0 no-repeat; }
+  .donat__amount-input {
+    position: relative; }
+  .donat__amount-link {
+    font-size: 1.6rem;
+    line-height: 140%; }
+  .donat__amount .centered {
+    margin-top: 3rem; }
 
 .footer {
   position: relative;
