@@ -6,9 +6,175 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" src="./img/favicon.ico">
-    <title>donate</title>
+    <title>Donate</title>
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/script.js" defer></script>
 </head>
 <body>
+
+<header class="header">
+    <div class="container">
+        <a href="/" class="header__logo">
+            <img src="./img/logo.png">
+        </a>
+        <nav class="menu">
+            <div class="menu__icon open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu__wrapper">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Map</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Zoos</a></li>
+                    <li class="menu__item"><a href="./donate.html" class="menu__link _active">Donate</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Contact us</a></li>
+                </ul>
+                <div class="menu__info">
+                    Designed by ©
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</header>
+<main class="main page__donate">
+    <section class="hero">
+        <div class="container">
+        </div>
+    </section>
+    <section class="donat">
+        <div class="container">
+            <h1 class="donat__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h1>
+            <div class="donat__text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</div>
+
+            <h3 class="donat__title-3">Donation Information</h3>
+
+            <div class="donat__info">
+                <h2 class="donat__info-title">Pick and feed a friend</h2>
+                <p class="donat__info-description">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                <div class="donat__info-pick-feed-friend">
+                    <div class="donat__info-day">
+                        <div class="donat__info-number">4</div>
+                        <div class="donat__info-text2">Panda diet for the day.</div>
+                    </div>
+                    <div class="donat__info-img">
+                        <img src="./img/donate/panda.png" alt="panda">
+                    </div>
+                </div>
+
+                <div class="donat__amount">
+                        <h4 class="donat__amount-title">Amount</h4>
+                        <div class="donat__amount-progress_bar">
+                            <img src="./img/donate/progress_bar2.svg" alt="">
+                        </div>
+                        <div class="donat__amount-form">
+                            <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" class="donat__amount-input">
+
+                            <input type="radio" id="payment1"
+                                   name="payment" value="Monthly">
+                            <label for="payment1">Monthly</label>
+
+                            <input type="radio" id="payment2"
+                                   name="payment" value="Once">
+                            <label for="payment2">Once</label>
+                        </div>
+                        <div class="centered">
+                            <button class="button">Feed a friend now</button>
+                        </div>
+                        <a href="#" class="donat__amount-link">Share with your friends on social networks</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__list">
+            <div class="footer__item footer__item-first">
+                <div class="footer__logo">
+                    <a href="/index.html"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="footer__form">
+                    <div class="footer__form-title">Subscribe to our news</div>
+                    <form action="">
+                        <input class="footer__form-mail" type="email" placeholder="Enter your email">
+                        <button class="button button__white">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="footer__item">
+                <a href="/donate.html" class="button button__border-5">donate for volunteers</a>
+            </div>
+            <div class="footer__item footer__item-last">
+                <div class="footer__soc">
+                    <ul class="footer__soc-list">
+                        <li class="footer__soc-item">
+                            <a href="#">
+                                <div class="footer__soc-ico">
+                                    <svg class="footer__soc-facebook">
+                                        <use xlink:href="./img/soc/sprite-soc.svg#facebook"></use>
+                                    </svg>
+                                </div>
+                                <div class="footer__soc-name">Facebook</div>
+                            </a>
+                        </li>
+                        <li class="footer__soc-item">
+                            <a href="#">
+                                <div class="footer__soc-ico">
+                                    <svg class="footer__soc-twitter">
+                                        <use xlink:href="./img/soc/sprite-soc.svg#twitter"></use>
+                                    </svg>
+                                </div>
+                                <div class="footer__soc-name">Twitter</div>
+                            </a>
+                        </li>
+                        <li class="footer__soc-item">
+                            <a href="#">
+                                <div class="footer__soc-ico">
+                                    <svg class="footer__soc-instagram">
+                                        <use xlink:href="./img/soc/sprite-soc.svg#instagram"></use>
+                                    </svg>
+                                </div>
+                                <div class="footer__soc-name">Instagram</div>
+                            </a>
+                        </li>
+                        <li class="footer__soc-item">
+                            <a href="#">
+                                <div class="footer__soc-ico">
+                                    <svg class="footer__soc-youtube">
+                                        <use xlink:href="./img/soc/sprite-soc.svg#youtube"></use>
+                                    </svg>
+                                </div>
+                                <div class="footer__soc-name">YouTube</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="footer__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link _active">About</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Map</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Zoos</a></li>
+                        <li class="menu__item"><a href="./donate.html" class="menu__link">Donate</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Contact us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__copy">
+                    <div>Designed by Alisa Samborskaya</div>
+                    <div>©RSSchool & ©Yem Digital 2021</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

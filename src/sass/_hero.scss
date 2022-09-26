@@ -49,6 +49,15 @@
 
 }
 
+.page{
+  &__donate{
+    .hero{
+      height: 39rem;
+      background-position: center;
+    }
+  }
+}
+
 
 //@media (max-width: 62.5em) {
 //  .hero{
