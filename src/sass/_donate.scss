@@ -140,6 +140,18 @@
           bottom: 1px;
           background: url(../img/donate/radio.svg) 0 0 no-repeat;
         }
+
+        /* Checked */
+        .form_radio input[type=radio]:checked + label:before {
+          content: "";
+          display: inline-block;
+          width: 1.7rem;
+          height: 1.7rem;
+          position: absolute;
+          left: 0;
+          bottom: 1px;
+          background: url(../img/donate/checked.svg) 0 0 no-repeat;
+        }
       }
     }
 
