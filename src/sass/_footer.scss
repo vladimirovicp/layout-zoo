@@ -9,9 +9,7 @@
    justify-content: space-between;
 
 
-   &-first{
-     align-items: center;
-   }
+
 
    &-last{
      align-items: flex-end;
@@ -19,7 +17,15 @@
 
 
    &:not(:last-child){
-     margin-bottom: 4.6rem;
+     &:not(:first-child){
+       margin-bottom: 4.6rem;
+     }
+
+   }
+
+   &-first{
+     //align-items: center;
+     margin-bottom: 3.6rem;
    }
 
  }
@@ -123,15 +129,19 @@
     }
   }
 
+  &__menu{
+    width: 49rem;
+    padding-left: 12rem;
+  }
+
   &__copy{
     font-weight: 100;
     font-size: 1.6rem;
     line-height: 130%;
     color: #FFFFFF;
-    div{
-      &:not(:last-child){
+    a{
+        display: block;
         margin-bottom: 1rem;
-      }
     }
   }
 }

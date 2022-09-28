@@ -9,6 +9,7 @@
     .swiper-wrapper {
       height: 87.2rem;
       justify-content: space-between;
+      align-items: flex-start;
     }
 
     .swiper-slide{
@@ -17,6 +18,10 @@
       height: 42.6rem!important;
       border-radius: .5rem;
       border: .2rem solid #FA6F32;
+      &:not(:first-child){
+        margin-right: 3rem;
+      }
+
     }
   }
 

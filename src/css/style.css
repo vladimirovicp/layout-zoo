@@ -495,6 +495,7 @@ input[type=number] {
 .zoo__slider .swiper-wrapper {
   height: 87.2rem;
   justify-content: space-between;
+  align-items: flex-start;
 }
 .zoo__slider .swiper-slide {
   position: relative;
@@ -502,6 +503,9 @@ input[type=number] {
   height: 42.6rem !important;
   border-radius: 0.5rem;
   border: 0.2rem solid #FA6F32;
+}
+.zoo__slider .swiper-slide:not(:first-child) {
+  margin-right: 3rem;
 }
 .zoo__list {
   display: flex;
@@ -576,7 +580,7 @@ input[type=number] {
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
   opacity: 0.9;
   padding-top: 6.9rem;
-  padding-bottom: 14rem;
+  padding-bottom: 10rem;
 }
 .pick_feed:before {
   content: "";
@@ -597,7 +601,7 @@ input[type=number] {
   background-image: url("../img/pick-feed/pick-feed-top-right-bg.png");
 }
 .pick_feed .container {
-  padding: 4.1rem 5rem 5.9rem 9.9rem;
+  padding: 4.1rem 5rem 5.9rem 5rem;
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
   border-radius: 2rem;
@@ -620,6 +624,7 @@ input[type=number] {
   font-size: 2.4rem;
   line-height: 120%;
   color: #333B41;
+  padding-left: 4.9rem;
   padding-bottom: 4rem;
 }
 .pick_feed__text-500 {
@@ -627,6 +632,7 @@ input[type=number] {
   font-size: 1.6rem;
   line-height: 130%;
   color: #333B41;
+  padding-left: 4.9rem;
   padding-bottom: 1rem;
 }
 .pick_feed__text-normal {
@@ -634,6 +640,8 @@ input[type=number] {
   font-size: 1.6rem;
   line-height: 130%;
   color: #333B41;
+  padding-left: 4.9rem;
+  padding-right: 14rem;
 }
 .pick_feed__text-normal a {
   position: relative;
@@ -653,7 +661,9 @@ input[type=number] {
 .pick_feed__list {
   padding-top: 4rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 76.4rem;
+  margin: 0 auto;
 }
 .pick_feed__item {
   position: relative;
@@ -682,7 +692,7 @@ input[type=number] {
   width: 7rem;
   height: 3.6rem;
   background-image: url("../img/pick-feed/pick-feed-desktop-arrow.svg");
-  right: -10rem;
+  right: -8.5rem;
   top: 50%;
   transform: translate(1.5rem, -50%);
 }
@@ -695,13 +705,13 @@ input[type=number] {
   height: 9.5rem;
 }
 .pick_feed__icon-monkey {
-  width: 10.2475rem;
+  width: 12.475rem;
   height: 7.16rem;
 }
 
 .testimonials {
   padding-top: 14rem;
-  padding-bottom: 18rem;
+  padding-bottom: 18.5rem;
   position: relative;
 }
 .testimonials:before {
@@ -711,7 +721,7 @@ input[type=number] {
   background-image: url("../img/footer/leav_foto.png");
   width: 24.7rem;
   height: 40.8rem;
-  bottom: -10.4rem;
+  bottom: -13rem;
   right: 0;
   z-index: 10;
 }
@@ -782,7 +792,7 @@ input[type=number] {
   width: 59.9rem;
   height: 0.8rem;
   border: 0.1rem solid #FE9013;
-  margin: 3rem 0;
+  margin: 2.5rem 0;
   background: #F5F7F6;
 }
 .testimonials .swiper-scrollbar-drag {
@@ -953,14 +963,14 @@ input[type=number] {
   display: flex;
   justify-content: space-between;
 }
-.footer__item-first {
-  align-items: center;
-}
 .footer__item-last {
   align-items: flex-end;
 }
-.footer__item:not(:last-child) {
+.footer__item:not(:last-child):not(:first-child) {
   margin-bottom: 4.6rem;
+}
+.footer__item-first {
+  margin-bottom: 3.6rem;
 }
 .footer__logo {
   width: 8.2rem;
@@ -1036,13 +1046,18 @@ input[type=number] {
   line-height: 140%;
   color: #FFFFFF;
 }
+.footer__menu {
+  width: 49rem;
+  padding-left: 12rem;
+}
 .footer__copy {
   font-weight: 100;
   font-size: 1.6rem;
   line-height: 130%;
   color: #FFFFFF;
 }
-.footer__copy div:not(:last-child) {
+.footer__copy a {
+  display: block;
   margin-bottom: 1rem;
 }
 
