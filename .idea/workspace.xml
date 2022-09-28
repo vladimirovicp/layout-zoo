@@ -7,7 +7,12 @@
     <list default="true" id="6b579108-9d61-4f43-a32f-d44acc992275" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_pick_feed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_pick_feed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_testimonials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_testimonials.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_zoo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_zoo.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664293399407</updated>
       <workItem from="1664293402438" duration="5705000" />
-      <workItem from="1664304131184" duration="215000" />
+      <workItem from="1664304131184" duration="815000" />
+      <workItem from="1664386460797" duration="3146000" />
     </task>
     <servers />
   </component>
