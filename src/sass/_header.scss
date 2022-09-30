@@ -1,5 +1,7 @@
 .header{
   background-color: #000;
+  position: relative;
+  z-index: 5;
 
   .container{
     display: flex;

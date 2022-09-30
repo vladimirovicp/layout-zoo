@@ -59,18 +59,23 @@
 }
 
 
-//@media (max-width: 62.5em) {
-//  .hero{
-//    height: 50.4rem;
-//
-//    &__title{
-//      width: 40rem;
-//      &:before{
-//        width: 36.5rem;
-//        height: 36.5rem;
-//      }
-//    }
-//  }
-//
-//
-//}
+@media (max-width: 65em) {
+  .hero{
+    height: 58.4rem;
+
+    .wrapper{
+      padding-top: 4.2rem;
+    }
+
+    &__title{
+      width: 40rem;
+      font-size:8.5rem;
+      &:before{
+        width: 36.7rem;
+        height: 36.7rem;
+      }
+    }
+  }
+
+
+}
