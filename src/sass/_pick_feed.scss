@@ -76,6 +76,7 @@
         &:after{
           content: '';
           position: absolute;
+          left: 0;
           display: block;
           background: #FE9013;
           width: 100%;
@@ -145,6 +146,69 @@
     &-monkey{
       width: 12.475rem;
       height: 7.16rem;
+    }
+  }
+
+}
+
+@media (max-width: 65em) {
+  .pick_feed{
+    width: auto;
+    margin-top: 14rem;
+    padding: 3rem 3rem 4.6rem 3rem;
+    &:before{
+      top: -20.2rem;
+      width: 19.4rem;
+      height: 20.2rem;
+      background-size: 19.4rem 20.2rem;
+      background-image: url("../img/pick-feed/pick-feed-top-left-bg-mobile.png");
+    }
+
+    &:after{
+      top: -18rem;
+      width: 24.1rem;
+      height: 18rem;
+      background-image: url("../img/pick-feed/pick-feed-top-right-bg.png");
+      background-size: 24.1rem 18rem;
+    }
+
+    .container{
+      padding: 3.2rem 4.9rem 5.9rem 4.9rem;
+    }
+
+    &__title{
+      padding-bottom: 2rem;
+    }
+
+    &__text{
+      &-big{
+        padding-left: 0;
+        padding-bottom: 2rem;
+      }
+      &-500{
+        padding-right: 5rem;
+        padding-left: 0;
+        padding-bottom: 1rem;
+      }
+      &-normal{
+        padding-left: 0;
+        padding-right: 2rem;
+      }
+    }
+
+    &__wrapper{
+      padding-top: 3.9rem;
+      padding-bottom: 7rem;
+    }
+
+    &__item{
+      &:not(:last-child){
+        .pick_feed__item-img{
+          &:before{
+            top: calc(50% - .5rem);
+          }
+        }
+      }
     }
   }
 

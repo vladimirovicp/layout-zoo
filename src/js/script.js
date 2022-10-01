@@ -21,9 +21,14 @@ const swiperZoo = new Swiper('.zoo__slider', {
     //     320: {
     //         slidesPerView: 2
     //     },
-    //     768: {
-    //         slidesPerView: 3
-    //     }
+    //     1040: {
+    //         slidesPerView: 3,
+    //         grid: { rows: 2, },
+    //     },
+    //     1240: {
+    //         slidesPerView: 3,
+    //         grid: { rows: 2, },
+    //     },
     // },
 
 
@@ -50,8 +55,12 @@ const swiperTestimonials = new Swiper('.testimonials__slider', {
             slidesPerView: 2
         },
         768: {
+            slidesPerView: 3
+        },
+        1200: {
             slidesPerView: 4
         }
+
     },
 
 

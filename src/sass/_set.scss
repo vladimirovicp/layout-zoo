@@ -86,6 +86,7 @@ img {
     width: 100%;
     height: 100%;
     flex-shrink: 0;
+    object-fit: cover;
 }
 
 button {
@@ -129,9 +130,8 @@ input[type="number"] {
 
 @media (max-width: 65em) {  //1040
     html {
-        font-size: 10px;
+        font-size: 0.98vw;
     }
-
     .container {
         width: 100%;
         padding: 0 3rem;
@@ -139,25 +139,25 @@ input[type="number"] {
 
 
 
-    .info{
-        display: none;
-    }
+    //.info{
+    //    display: none;
+    //}
 
-    .zoo{
-        display: none;
-    }
+    //.zoo{
+    //    display: none;
+    //}
 
-    .favorite{
-        display: none;
-    }
+    //.favorite{
+    //    display: none;
+    //}
 
-    .pick_feed{
-        display: none;
-    }
+    //.pick_feed{
+    //    display: none;
+    //}
 
-    .testimonials{
-        display: none;
-    }
+    //.testimonials{
+    //    display: none;
+    //}
 
 
 
@@ -189,8 +189,8 @@ input[type="number"] {
 //    }
 //}
 
-@media (min-width: 100em) {
-        html {
-            font-size: 10px;
-        }
-}
+//@media (min-width: 100em) {
+//        html {
+//            font-size: 1vw;
+//        }
+//}
