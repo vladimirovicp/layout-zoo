@@ -7,27 +7,17 @@
  &__item{
     display: flex;
    justify-content: space-between;
-
-
-
-
    &-last{
      align-items: flex-end;
    }
-
-
    &:not(:last-child){
      &:not(:first-child){
        margin-bottom: 4.6rem;
      }
-
    }
-
    &-first{
-     //align-items: center;
      margin-bottom: 3.6rem;
    }
-
  }
 
   &__logo{
@@ -142,6 +132,17 @@
     a{
         display: block;
         margin-bottom: 1rem;
+    }
+  }
+}
+
+
+@media (max-width: 65em) {
+  .footer{
+    &__item{
+      &-first{
+        margin-right: 3.2rem;
+      }
     }
   }
 }

@@ -11,8 +11,9 @@
     position: absolute;
     top: -46rem;
     left: 0;
-    width: 29.2rem;
+    width: 26.8rem;
     height: 46rem;
+    background-size: 26.8rem 46rem;
     background-image: url("../img/pick-feed/pick-feed-top-left-bg.png");
   }
 
@@ -24,6 +25,7 @@
     width: 36.8rem;
     height: 27.5rem;
     background-image: url("../img/pick-feed/pick-feed-top-right-bg.png");
+    background-size: 36.8rem 27.5rem;
   }
 
   .container{

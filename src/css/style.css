@@ -632,8 +632,9 @@ input[type="number"] {
     position: absolute;
     top: -46rem;
     left: 0;
-    width: 29.2rem;
+    width: 26.8rem;
     height: 46rem;
+    background-size: 26.8rem 46rem;
     background-image: url("../img/pick-feed/pick-feed-top-left-bg.png"); }
   .pick_feed:after {
     content: '';
@@ -642,7 +643,8 @@ input[type="number"] {
     right: 0;
     width: 36.8rem;
     height: 27.5rem;
-    background-image: url("../img/pick-feed/pick-feed-top-right-bg.png"); }
+    background-image: url("../img/pick-feed/pick-feed-top-right-bg.png");
+    background-size: 36.8rem 27.5rem; }
   .pick_feed .container {
     padding: 4.1rem 5rem 5.9rem 5rem;
     background: rgba(253, 253, 255, 0.52);
@@ -782,11 +784,12 @@ input[type="number"] {
     content: '';
     display: block;
     background-image: url("../img/footer/leav_foto.png");
+    background-size: 24.7rem 40.8rem;
     width: 24.7rem;
     height: 40.8rem;
     bottom: -13rem;
     right: 0;
-    z-index: 10; }
+    z-index: 0; }
   .testimonials__title {
     font-size: 3.6rem;
     line-height: 130%;
@@ -805,7 +808,8 @@ input[type="number"] {
     .testimonials__slide-wrap {
       border-radius: 2rem;
       background: #F1F3F2;
-      padding: 1.5rem 1.5rem 1.9rem 1.6rem; }
+      padding: 1.5rem 1.5rem 1.9rem 1.6rem;
+      height: 39.1rem; }
     .testimonials__slide-header {
       display: flex;
       padding-bottom: 1rem; }
@@ -840,7 +844,16 @@ input[type="number"] {
       font-weight: 300;
       font-size: 1.5rem;
       line-height: 120%;
-      color: #767474; }
+      color: #767474;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -moz-box;
+      -moz-box-orient: vertical;
+      display: -webkit-box;
+      -webkit-line-clamp: 17;
+      -webkit-box-orient: vertical;
+      line-clamp: 17;
+      box-orient: vertical; }
   .testimonials__swiper-scrollbar {
     width: 59.9rem;
     height: .8rem;
@@ -854,57 +867,28 @@ input[type="number"] {
 
 @media (max-width: 65em) {
   .testimonials {
-    padding-top: 10rem; }
+    padding-top: 10rem;
+    padding-bottom: 14rem; }
+    .testimonials:before {
+      width: 20.7rem;
+      height: 32.5rem;
+      background-size: 20.7rem 32.5rem;
+      bottom: -9rem; }
     .testimonials__title {
       padding-bottom: 3rem; }
-    .testimonials__wrapper-scrollbar {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
     .testimonials__slide-wrap {
-      height: 38.7rem; }
-    .testimonials__slide-img {
-      width: 3.7rem;
-      height: 3.7rem;
-      margin-right: 1rem; }
-    .testimonials__slide-title {
-      font-size: 1.6rem;
-      line-height: 120%;
-      color: #000000;
-      margin-bottom: .1rem; }
-    .testimonials__slide-info {
-      display: flex; }
-    .testimonials__slide-local {
-      font-weight: 300;
-      font-size: 1.5rem;
-      line-height: 120%;
-      color: #BDBDBD; }
-    .testimonials__slide-day {
-      position: relative;
-      font-weight: 300;
-      font-size: 1.5rem;
-      line-height: 120%;
-      color: #BDBDBD;
-      padding-left: 1.6rem; }
-      .testimonials__slide-day:before {
-        left: .6rem;
-        content: '•';
-        position: absolute; }
+      height: 38.7rem;
+      padding-top: 1.1rem; }
     .testimonials__slide-text {
-      font-weight: 300;
-      font-size: 1.5rem;
-      line-height: 120%;
-      color: #767474; }
+      -webkit-line-clamp: 16;
+      line-clamp: 16; }
     .testimonials__swiper-scrollbar {
-      width: 59.9rem;
+      width: 39rem;
       height: .8rem;
-      border: .1rem solid #FE9013;
-      margin: 2.5rem 0;
-      background: #F5F7F6; }
+      margin: 2rem 0 5rem; }
     .testimonials .swiper-scrollbar-drag {
-      background: #FE9013;
       border-radius: .5rem;
-      width: 11.6rem !important; } }
+      width: 7.1rem !important; } }
 
 .donat {
   padding-top: 4rem;
@@ -1134,3 +1118,7 @@ input[type="number"] {
     .footer__copy a {
       display: block;
       margin-bottom: 1rem; }
+
+@media (max-width: 65em) {
+  .footer__item-first {
+    margin-right: 3.2rem; } }
