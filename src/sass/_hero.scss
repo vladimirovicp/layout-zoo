@@ -82,3 +82,27 @@
 
 
 }
+
+@media (max-width: 40em) { //640
+  @media (max-width: 65em) {
+    .hero{
+      height: 39.3rem;
+
+      .wrapper{
+        padding-top: 4.2rem;
+      }
+
+      &__title{
+        width: 40rem;
+        font-size:8.5rem;
+        margin-bottom: 4rem;
+        &:before{
+          top: -6.4rem;
+          left: -6.4rem;
+          width: 36.7rem;
+          height: 36.7rem;
+        }
+      }
+    }
+  }
+}

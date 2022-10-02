@@ -8,9 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_pick_feed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_pick_feed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_testimonials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_testimonials.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_set.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_set.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <workItem from="1664386460797" duration="4808000" />
       <workItem from="1664520030977" duration="3020000" />
       <workItem from="1664623334115" duration="8516000" />
-      <workItem from="1664706858286" duration="3297000" />
+      <workItem from="1664706858286" duration="4049000" />
     </task>
     <servers />
   </component>
