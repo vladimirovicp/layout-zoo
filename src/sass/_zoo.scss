@@ -6,6 +6,7 @@
     position: relative;
   }
   &__slider{
+    margin-left: 3rem;
     .swiper-wrapper {
       height: 87.2rem;
       justify-content: space-between;
@@ -18,9 +19,9 @@
       height: 42.6rem!important;
       border-radius: .5rem;
       border: .2rem solid #FA6F32;
-      &:not(:first-child){
-        margin-right: 3rem;
-      }
+      //&:not(:first-child){
+      //  margin-right: 3rem;
+      //}
 
     }
   }
